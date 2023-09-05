@@ -31,7 +31,7 @@ function Navbar() {
                         Home
                     </Link>
                     <div className="navbar-item has-dropdown is-hoverable">
-                        <Link to="/ryangordonLaw" className="navbar-link google-font-ss">
+                        <Link to="/ryanGordonLawWebsite" className="navbar-link google-font-ss">
                             Services
                         </Link>
                         <div className="navbar-dropdown">

@@ -20,7 +20,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/ryangordonLaw"
+          path="/ryanGordonLawWebsite"
           element={<Main />}
         />
         <Route
