@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ryangordonLaw/static/css/main.7a70f8aa.css",
-    "main.js": "/ryangordonLaw/static/js/main.570d902d.js",
-    "static/media/jury.jpg": "/ryangordonLaw/static/media/jury.8353897a4e7807771c68.jpg",
-    "static/media/taxes.jpg": "/ryangordonLaw/static/media/taxes.0e3ce6f6a389d468e05d.jpg",
-    "static/media/handshake.jpg": "/ryangordonLaw/static/media/handshake.4eb96122a329999abe0b.jpg",
-    "static/media/house.jpg": "/ryangordonLaw/static/media/house.4435245a3de2beaf5d40.jpg",
-    "static/media/ryanGordon.png": "/ryangordonLaw/static/media/ryanGordon.0282bd5580d73a1d22a0.png",
-    "static/media/homeKeys.png": "/ryangordonLaw/static/media/homeKeys.7d0d98f32cb81b8c0fb7.png",
-    "static/media/keys.jpg": "/ryangordonLaw/static/media/keys.a3515bb3ee90915b9617.jpg",
-    "static/media/signature.jpg": "/ryangordonLaw/static/media/signature.9db2ff3bdbd87098a9f6.jpg",
-    "static/media/columbus_skyline.jpg": "/ryangordonLaw/static/media/columbus_skyline.64582ce4043ac688de7b.jpg",
-    "static/media/osuBar.png": "/ryangordonLaw/static/media/osuBar.4f76d7500b37ad592ce6.png",
-    "index.html": "/ryangordonLaw/index.html",
-    "main.7a70f8aa.css.map": "/ryangordonLaw/static/css/main.7a70f8aa.css.map",
-    "main.570d902d.js.map": "/ryangordonLaw/static/js/main.570d902d.js.map"
+    "main.css": "/ryanGordonLawWebsite/static/css/main.5f99891a.css",
+    "main.js": "/ryanGordonLawWebsite/static/js/main.0f665dcc.js",
+    "static/media/jury.jpg": "/ryanGordonLawWebsite/static/media/jury.8353897a4e7807771c68.jpg",
+    "static/media/taxes.jpg": "/ryanGordonLawWebsite/static/media/taxes.0e3ce6f6a389d468e05d.jpg",
+    "static/media/handshake.jpg": "/ryanGordonLawWebsite/static/media/handshake.4eb96122a329999abe0b.jpg",
+    "static/media/house.jpg": "/ryanGordonLawWebsite/static/media/house.4435245a3de2beaf5d40.jpg",
+    "static/media/ryanGordon.png": "/ryanGordonLawWebsite/static/media/ryanGordon.0282bd5580d73a1d22a0.png",
+    "static/media/homeKeys.png": "/ryanGordonLawWebsite/static/media/homeKeys.7d0d98f32cb81b8c0fb7.png",
+    "static/media/keys.jpg": "/ryanGordonLawWebsite/static/media/keys.a3515bb3ee90915b9617.jpg",
+    "static/media/signature.jpg": "/ryanGordonLawWebsite/static/media/signature.9db2ff3bdbd87098a9f6.jpg",
+    "static/media/columbus_skyline.jpg": "/ryanGordonLawWebsite/static/media/columbus_skyline.64582ce4043ac688de7b.jpg",
+    "static/media/osuBar.png": "/ryanGordonLawWebsite/static/media/osuBar.4f76d7500b37ad592ce6.png",
+    "index.html": "/ryanGordonLawWebsite/index.html",
+    "main.5f99891a.css.map": "/ryanGordonLawWebsite/static/css/main.5f99891a.css.map",
+    "main.0f665dcc.js.map": "/ryanGordonLawWebsite/static/js/main.0f665dcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a70f8aa.css",
-    "static/js/main.570d902d.js"
+    "static/css/main.5f99891a.css",
+    "static/js/main.0f665dcc.js"
   ]
 }
