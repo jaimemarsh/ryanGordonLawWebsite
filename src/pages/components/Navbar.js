@@ -12,7 +12,7 @@ function Navbar() {
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <Link to="/" className="navbar-item">
+                <Link to="/ryanGordonLawWebsite" className="navbar-item">
                     <div className="google-font-pd is-size-2 is-size-5-mobile">RYAN GORDON LAW</div>
                 </Link>
                 <div
@@ -27,7 +27,7 @@ function Navbar() {
             <div className={`navbar-menu ${menuOpen ? 'is-active' : ''}`}>
                 <div className="navbar-start"></div>
                 <div className="navbar-end">
-                    <Link to="/ryangordonLaw" className="navbar-item google-font-ss">
+                    <Link to="/ryanGordonLawWebsite" className="navbar-item google-font-ss">
                         Home
                     </Link>
                     <div className="navbar-item has-dropdown is-hoverable">
