@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ryanGordonLawWebsite/static/css/main.5f99891a.css",
-    "main.js": "/ryanGordonLawWebsite/static/js/main.3da20e32.js",
+    "main.js": "/ryanGordonLawWebsite/static/js/main.4f74dc3f.js",
     "static/media/jury.jpg": "/ryanGordonLawWebsite/static/media/jury.8353897a4e7807771c68.jpg",
     "static/media/taxes.jpg": "/ryanGordonLawWebsite/static/media/taxes.0e3ce6f6a389d468e05d.jpg",
     "static/media/handshake.jpg": "/ryanGordonLawWebsite/static/media/handshake.4eb96122a329999abe0b.jpg",
@@ -14,10 +14,10 @@
     "static/media/osuBar.png": "/ryanGordonLawWebsite/static/media/osuBar.4f76d7500b37ad592ce6.png",
     "index.html": "/ryanGordonLawWebsite/index.html",
     "main.5f99891a.css.map": "/ryanGordonLawWebsite/static/css/main.5f99891a.css.map",
-    "main.3da20e32.js.map": "/ryanGordonLawWebsite/static/js/main.3da20e32.js.map"
+    "main.4f74dc3f.js.map": "/ryanGordonLawWebsite/static/js/main.4f74dc3f.js.map"
   },
   "entrypoints": [
     "static/css/main.5f99891a.css",
-    "static/js/main.3da20e32.js"
+    "static/js/main.4f74dc3f.js"
   ]
 }
