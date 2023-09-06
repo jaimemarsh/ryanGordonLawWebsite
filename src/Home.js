@@ -14,6 +14,7 @@ import Tax from './pages/Tax'
 import Probate from './pages/Probate'
 import Contact from './pages/ContactUs'
 import Services from './pages/Services'
+import NotFound from './pages/NotFound'
 
 function Home() {
   return (
@@ -63,6 +64,10 @@ function Home() {
           path="/Services"
           element={<Services />}
         />
+        <Route
+              path="*"
+              element={<NotFound />}
+            />
       </Routes>
     </Router>
   );
