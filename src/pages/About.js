@@ -12,7 +12,7 @@ const About = () => {
             <Navbar />
 
             <div className="section is-small">
-                <h1 className="mb-6 title google-font-pd has-text-centered about is-size-1-mobile"><strong><u>About</u></strong></h1>
+                <h1 className="mb-6 about google-font-pd has-text-centered is-size-1-mobile"><strong><u>About</u></strong></h1>
                 <div className="container mb-6">
                     <div className="columns">
                         <div className="column">

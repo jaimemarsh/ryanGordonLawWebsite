@@ -20,7 +20,7 @@ function Home() {
     <Router>
       <Routes>
         <Route
-          path="/ryanGordonLawWebsite"
+          path="/"
           element={<Main />}
         />
         <Route

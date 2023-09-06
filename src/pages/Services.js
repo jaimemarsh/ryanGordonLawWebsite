@@ -21,7 +21,7 @@ const trust = {
     name: 'Estate and Trust Administration',
     image: signature,
     alt: 'Signing a Document',
-    title: 'A Trust is a legal arrangement of ones property to a third party. Probate is the process through which a deceased person’s property is administered and distributed. ',
+    title: 'A Trust is ',
     subtitle: 'Click to Learn More',
 }
 
@@ -29,7 +29,7 @@ const probate = {
     name: 'Probate Fiduciary and Commerical Litigation',
     image: keys,
     alt: 'Keys in a Door',
-    title: 'Estate Planning is the process by which an individual, or their family members, make the arrangements for the transfer of assets of wealth or ownership in anticipation of passing away. ',
+    title: 'Probate Fiduciary and Commerical Litigation is',
     subtitle: 'Click to Learn More',
 
 }
@@ -38,7 +38,7 @@ const malpractice = {
     name: 'Attorney Malpractice',
     image: jury,
     alt: 'House',
-    title: 'Real Estate Law governs how people acquire and use property. It defines the rights and responsibilities a person has in reference to that ownership.',
+    title: 'Attorney Malpractice is',
     subtitle: 'Click to Learn More',
 }
 
@@ -62,7 +62,7 @@ const tax = {
     name: 'Tax Law',
     image: taxes,
     alt: 'House',
-    title: 'Real Estate Law governs how people acquire and use property. It defines the rights and responsibilities a person has in reference to that ownership.',
+    title: 'Tax Law is',
     subtitle: 'Click to Learn More',
 }
 
@@ -166,18 +166,17 @@ const Services = () => {
                         </Link>
                     </div>
 
-                    <div className="tile">
-                        <div className="tile is-parent">
-                            <Link to="/Tax">
-                                <article className="tile is-child">
-                                    <Card
-                                        image={tax.image}
-                                        name={tax.name}
-                                        title={tax.title}
-                                        subtitle={tax.subtitle} />
-                                </article>
-                            </Link>
-                        </div>
+                    <div className="tile is-parent">
+                        <Link to="/Tax">
+                            <article className="tile is-child">
+                                <Card
+                                    image={tax.image}
+                                    name={tax.name}
+                                    title={tax.title}
+                                    subtitle={tax.subtitle}
+                                />
+                            </article>
+                        </Link>
                     </div>
                 </div>
             </div>

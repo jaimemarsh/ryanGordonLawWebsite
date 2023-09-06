@@ -37,7 +37,7 @@ const Hero = () => {
                 <p className="title has-text-centered is-size-1 is-size-3-mobile google-font-pd">AV RATED</p>
                 <div className="columns">
                     <div className="column">
-                        <p className="has-text-centered is-size-3 is-size-4-mobile google-font-ss has-text-black m-1"><span className="google-font-pd is-size-2 is-size-3-mobile">Ryan Gordon</span> is viewed highly not
+                        <p className="has-text-centered is-size-3 has-text-justified is-size-4-mobile google-font-ss has-text-black mx-4"><span className="google-font-pd is-size-2 is-size-3-mobile">Ryan Gordon</span> is viewed highly not
                             only by former clients, but his peers. Ryan has earned the AV rating, the highest and most respected badge an
                             attorney can earn from <Link to="https://www.martindale.com/attorney/mr-ryan-andrew-gordon-300548446/#profile-client-reviews"><span className="hover-effect"><u>Martindale-Hubbell</u></span></Link>. The AV badge means he rated high in all categories including legal knowledge, analytical
                             capability, judgment, communication, and legal experience. </p>
