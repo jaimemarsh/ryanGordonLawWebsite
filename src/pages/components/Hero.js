@@ -39,10 +39,10 @@ const Hero = () => {
                 <div className="is-vcentered is-justify-content-space-between">
                     <div className="">
                         <p className=" is-size-3 is-size-4-mobile google-font-ss has-text-black mx-4">
-                         <Link to="https://www.martindale.com/attorney/mr-ryan-andrew-gordon-300548446/#profile-client-reviews"><span className="hover-effect"><u>Martindale-Hubbell</u></span> </Link>
-                        awarded Ryan Gordon with an AV rating, the highest and most respected badge an attorney can earn. To get this badge you must be rated high in all categories
-                          including legal knowledge, analytical capability, judgment, communication, and legal experience. 
-                           </p>
+                            <Link to="https://www.martindale.com/attorney/mr-ryan-andrew-gordon-300548446/#profile-client-reviews"><span className="hover-effect"><strong><u>Martindale-Hubbell</u></strong></span> </Link>
+                            awarded Ryan Gordon with an AV rating, the highest and most respected badge an attorney can earn. To get this badge you must be rated high in all categories
+                            including legal knowledge, analytical capability, judgment, communication, and legal experience.
+                        </p>
                     </div>
                 </div>
             </div>

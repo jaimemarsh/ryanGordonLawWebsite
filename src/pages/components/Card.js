@@ -11,8 +11,8 @@ function Card(props) {
                     </picture>
                     <div className="overlay">
                         <div className="description">
-                            <p className="title has-text-white is-size-4 is-size-5-mobile">{props.title}</p>
-                            <p className="subtitle has-text-white">{props.subtitle}</p>
+                            <p className="title has-text-white is-size-3 is-size-5-mobile m-3">{props.title}</p>
+                            <p className="subtitle has-text-white mt-3">{props.subtitle}</p>
                         </div>
                     </div>
                 </div>

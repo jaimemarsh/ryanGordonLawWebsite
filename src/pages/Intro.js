@@ -13,11 +13,14 @@ const Intro = () => {
                     <br></br><span className="is-size-4-mobile is-size-3">ESQ., LLM, LLC</span></h1>
 
                 <p className="google-font-ss is-size-2 is-size-5-mobile">Our services include:<br></br>
-                  <Link to="/Estate"> Estate Planning</Link>,<Link to="/Trust"> Estate and Trust Administration</Link>,
-                    <Link to="/Probate"> Probate Fiduciary and Commerical Litigation</Link>,
-                    <Link to="/Mal"> Attorney Malpractice Litigation</Link>,<Link to="/Business"> Business Law</Link>,
-                  <Link to="/RealEstate"> Real Estate Law</Link>, and <Link to="/Tax"> Tax Law</Link>.
-                    </p>
+                    <Link to="/Estate"> Estate Planning</Link>,
+                    <Link to="/Trust"> Estate and Trust Administration</Link>,
+                    <Link to="/Probate"> Probate Fiduciary</Link>,
+                    <Link to="/Commerical"> Commerical Litigation</Link>,
+                    <Link to="/Mal"> Attorney Malpractice Litigation</Link>,
+                    <Link to="/Business"> Business Law</Link>,
+                    <Link to="/RealEstate"> Real Estate Law</Link>, and <Link to="/Tax"> Tax Law</Link>.
+                </p>
             </div>
             <div className="is-size-2 has-text-centered google-font-pd is-size-4-mobile m-4">
                 <div className="phone"><a href={`tel:${phoneNumber}`}><FontAwesomeIcon icon={faPhone} size="sm" className="is-size-3 mr-4" />Call Today</a> </div>

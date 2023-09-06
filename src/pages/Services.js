@@ -1,44 +1,53 @@
 import React from 'react';
 import Card from './components/Card'
 import keys from '../images/keys.jpg'
-import homeKeys from '../images/homeKeys.png'
+import homeKeys from '../images/homeKeys.jpg'
 import handshake from '../images/handshake.jpg'
 import house from '../images/house.jpg'
 import signature from '../images/signature.jpg'
 import taxes from '../images/taxes.jpg'
 import jury from '../images/jury.jpg'
+import desk from '../images/desk.jpg'
 import { Link } from 'react-router-dom';
 
 const estatePlanning = {
     name: 'Estate Planning',
     image: homeKeys,
-    alt: 'Keys in a Door',
+    alt: 'Keys for a Home',
     title: 'Estate Planning is the process by which an individual, or their family members, make arrangements in anticipation of passing away. ',
     subtitle: 'Click to Learn More',
 
 }
 const trust = {
-    name: 'Estate and Trust Administration',
+    name: 'Trust Administration',
     image: signature,
     alt: 'Signing a Document',
-    title: 'A Trust is ',
+    title: 'Estate and Trust Administration is the process of managing and distributing a person\'s assets and settling their financials after they have passed away.',
     subtitle: 'Click to Learn More',
 }
 
 const probate = {
-    name: 'Probate Fiduciary and Commerical Litigation',
+    name: 'Probate Fiduciary',
     image: keys,
     alt: 'Keys in a Door',
-    title: 'Probate Fiduciary and Commerical Litigation is',
+    title: 'A Probate Fiduciary is a person appointed by the court that will oversee and manage the assets in a transparent and lawful manner after a person has passed away. ',
     subtitle: 'Click to Learn More',
 
 }
 
+const commercial = {
+    name: 'Commercial Litigation',
+    image: desk,
+    alt: 'Desk and Laptop',
+    title: 'Commercial Litigation is the legal process of resolving disputes that arise in a business or commercial context.',
+    subtitle: 'Click to Learn More',
+
+}
 const malpractice = {
     name: 'Attorney Malpractice',
     image: jury,
-    alt: 'House',
-    title: 'Attorney Malpractice is',
+    alt: 'Court Room',
+    title: 'Attorney Malpractice Litigation is when a client believes their attorney failed to provide competent and diligent legal representation.',
     subtitle: 'Click to Learn More',
 }
 
@@ -61,8 +70,8 @@ const realEstate = {
 const tax = {
     name: 'Tax Law',
     image: taxes,
-    alt: 'House',
-    title: 'Tax Law is',
+    alt: 'Tax Papers',
+    title: 'Tax Law encompasses the rules, regulations, and legal principles associated with taxes from our government.',
     subtitle: 'Click to Learn More',
 }
 
@@ -78,18 +87,35 @@ const Services = () => {
                 <p>Not sure where to start or what exactly you need?
                     <br></br><strong><Link to="/ContactUs"><u>Contact Us Today</u></Link></strong></p>
             </discription>
+            <div className="tile is-ancestor google-font-ss">
+                <div className="tile">
 
-            <div className="">
-                <Link to="/Estate">
-                    <article className="">
-                        <Card
-                            image={estatePlanning.image}
-                            name={estatePlanning.name}
-                            title={estatePlanning.title}
-                            subtitle={estatePlanning.subtitle}
-                        />
-                    </article>
-                </Link>
+                    <div className="tile is-parent">
+                        <Link to="/Estate">
+                            <article className="tile is-child">
+                                <Card
+                                    image={estatePlanning.image}
+                                    name={estatePlanning.name}
+                                    title={estatePlanning.title}
+                                    subtitle={estatePlanning.subtitle}
+                                />
+                            </article>
+                        </Link>
+                    </div>
+
+                    <div className="tile is-parent">
+                        <Link to="/RealEstate">
+                            <article className="tile is-child">
+                                <Card
+                                    image={realEstate.image}
+                                    name={realEstate.name}
+                                    title={realEstate.title}
+                                    subtitle={realEstate.subtitle} />
+                            </article>
+                        </Link>
+                    </div>
+
+                </div>
             </div>
 
             <div className="tile is-ancestor google-font-ss">
@@ -139,16 +165,17 @@ const Services = () => {
                     </div>
 
                     <div className="tile is-parent">
-                        <Link to="/RealEstate">
+                        <Link to="/Commercial">
                             <article className="tile is-child">
                                 <Card
-                                    image={realEstate.image}
-                                    name={realEstate.name}
-                                    title={realEstate.title}
-                                    subtitle={realEstate.subtitle} />
+                                    image={commercial.image}
+                                    name={commercial.name}
+                                    title={commercial.title}
+                                    subtitle={commercial.subtitle} />
                             </article>
                         </Link>
                     </div>
+    
                 </div>
             </div>
 
