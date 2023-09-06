@@ -75,7 +75,8 @@ const Services = () => {
             <h1 className="is-size-1 google-font-pd is-size-2-mobile"><strong>OUR SERVICES</strong></h1>
             <discription className="google-font-ss is-size-4 is-size-5-mobile">
                 <p>These are the areas of law we focus on and provide services for.</p>
-                <p>Not sure where to start or what exactly you need? <strong><Link to="/ContactUs"><u>Contact Us Today</u></Link></strong></p>
+                <p>Not sure where to start or what exactly you need?
+                    <br></br><strong><Link to="/ContactUs"><u>Contact Us Today</u></Link></strong></p>
             </discription>
 
             <div className="">

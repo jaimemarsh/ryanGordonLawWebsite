@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import 'bulma/css/bulma.min.css';
 import './css/Header.css';
 import './css/Fonts.css';
@@ -16,9 +16,20 @@ import Contact from './pages/ContactUs'
 import Services from './pages/Services'
 import NotFound from './pages/NotFound'
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function Home() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route
           path="/ryanGordonLawWebsite"
@@ -60,14 +71,14 @@ function Home() {
           path="/ContactUs"
           element={<Contact />}
         />
-         <Route
+        <Route
           path="/Services"
           element={<Services />}
         />
         <Route
-              path="*"
-              element={<NotFound />}
-            />
+          path="*"
+          element={<NotFound />}
+        />
       </Routes>
     </Router>
   );

@@ -2,6 +2,7 @@ import React from 'react';
 import cbaBar from '../../images/cbaBar.png';
 import osuAlumni from '../../images/osuAlumni.png';
 import osuBar from '../../images/osuBar.png';
+import avRating from '../../images/avRating.png';
 import "../../css/Hero.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faScaleBalanced, faChess, faHandshake, faPen } from '@fortawesome/free-solid-svg-icons'
@@ -35,12 +36,13 @@ const Hero = () => {
             </div>
             <div className="mt-6 container is-max-widescreen">
                 <p className="title has-text-centered is-size-1 is-size-3-mobile google-font-pd">AV RATED</p>
-                <div className="columns">
-                    <div className="column">
-                        <p className="has-text-centered is-size-3 has-text-justified is-size-4-mobile google-font-ss has-text-black mx-4"><span className="google-font-pd is-size-2 is-size-3-mobile">Ryan Gordon</span> is viewed highly not
-                            only by former clients, but his peers. Ryan has earned the AV rating, the highest and most respected badge an
-                            attorney can earn from <Link to="https://www.martindale.com/attorney/mr-ryan-andrew-gordon-300548446/#profile-client-reviews"><span className="hover-effect"><u>Martindale-Hubbell</u></span></Link>. The AV badge means he rated high in all categories including legal knowledge, analytical
-                            capability, judgment, communication, and legal experience. </p>
+                <div className="is-vcentered is-justify-content-space-between">
+                    <div className="">
+                        <p className=" is-size-3 is-size-4-mobile google-font-ss has-text-black mx-4">
+                         <Link to="https://www.martindale.com/attorney/mr-ryan-andrew-gordon-300548446/#profile-client-reviews"><span className="hover-effect"><u>Martindale-Hubbell</u></span> </Link>
+                        awarded Ryan Gordon with an AV rating, the highest and most respected badge an attorney can earn. To get this badge you must be rated high in all categories
+                          including legal knowledge, analytical capability, judgment, communication, and legal experience. 
+                           </p>
                     </div>
                 </div>
             </div>
@@ -51,11 +53,14 @@ const Hero = () => {
                         <Link to="https://www.cbalaw.org/"><img src={cbaBar} alt="Columbus Bar Association" /></Link>
                     </div>
                     <div className="column m-6 hover-effect">
-                       <Link to="https://www.osu.edu/alumni/"><img src={osuAlumni} alt="OSU Alumni" /></Link>
+                        <Link to="https://www.osu.edu/alumni/"><img src={osuAlumni} alt="OSU Alumni" /></Link>
                     </div>
                     <div className="column m-6 hover-effect">
-                       <Link to="https://www.ohiobar.org/"> <img src={osuBar} alt="Ohio State Bar Association" /></Link>
+                        <Link to="https://www.ohiobar.org/"> <img src={osuBar} alt="Ohio State Bar Association" /></Link>
                     </div>
+                    {/* <div className="column m-6 hover-effect is-one-third">
+                        <Link to="https://www.cbalaw.org/"><img src={avRating} alt="AV Ratings Badg" /></Link>
+                    </div> */}
                 </div>
             </div>
         </div>
