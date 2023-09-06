@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ryanGordonLawWebsite/static/css/main.5f99891a.css",
-    "main.js": "/ryanGordonLawWebsite/static/js/main.4f74dc3f.js",
+    "main.js": "/ryanGordonLawWebsite/static/js/main.230c02d6.js",
     "static/media/jury.jpg": "/ryanGordonLawWebsite/static/media/jury.8353897a4e7807771c68.jpg",
     "static/media/taxes.jpg": "/ryanGordonLawWebsite/static/media/taxes.0e3ce6f6a389d468e05d.jpg",
     "static/media/handshake.jpg": "/ryanGordonLawWebsite/static/media/handshake.4eb96122a329999abe0b.jpg",
@@ -12,12 +12,13 @@
     "static/media/signature.jpg": "/ryanGordonLawWebsite/static/media/signature.9db2ff3bdbd87098a9f6.jpg",
     "static/media/columbus_skyline.jpg": "/ryanGordonLawWebsite/static/media/columbus_skyline.64582ce4043ac688de7b.jpg",
     "static/media/osuBar.png": "/ryanGordonLawWebsite/static/media/osuBar.4f76d7500b37ad592ce6.png",
+    "static/media/avRating.png": "/ryanGordonLawWebsite/static/media/avRating.f81da35eabeb9be2ffed.png",
     "index.html": "/ryanGordonLawWebsite/index.html",
     "main.5f99891a.css.map": "/ryanGordonLawWebsite/static/css/main.5f99891a.css.map",
-    "main.4f74dc3f.js.map": "/ryanGordonLawWebsite/static/js/main.4f74dc3f.js.map"
+    "main.230c02d6.js.map": "/ryanGordonLawWebsite/static/js/main.230c02d6.js.map"
   },
   "entrypoints": [
     "static/css/main.5f99891a.css",
-    "static/js/main.4f74dc3f.js"
+    "static/js/main.230c02d6.js"
   ]
 }
