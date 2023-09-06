@@ -14,6 +14,7 @@ import Tax from './pages/Tax'
 import Probate from './pages/Probate'
 import Contact from './pages/ContactUs'
 import Services from './pages/Services'
+import Commercial from './pages/Commercial'
 import NotFound from './pages/NotFound'
 
 function ScrollToTop() {
@@ -62,6 +63,10 @@ function Home() {
         <Route
           path="/Probate"
           element={<Probate />}
+        />
+         <Route
+          path="/Commercial"
+          element={<Commercial />}
         />
         <Route
           path="/Tax"

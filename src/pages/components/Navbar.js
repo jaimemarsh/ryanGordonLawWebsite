@@ -44,7 +44,11 @@ function Navbar() {
                             </Link>
 
                             <Link to="/Probate" className="navbar-item google-font-ss">
-                                Probate Fiduciary and Commerical<br></br> Litigation
+                                Probate Fiduciary
+                            </Link>
+
+                            <Link to="/Commercial" className="navbar-item google-font-ss">
+                                Commerical Litigation
                             </Link>
 
                             <Link to="/Malpractice" className="navbar-item google-font-ss">
