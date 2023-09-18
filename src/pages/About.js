@@ -24,7 +24,7 @@ const About = () => {
                                 are facing today. Ryan comes from generations of educators who have dedicated their lives to helping others which inspired
                                 him to do the same. Pursuing his education at The Ohio State University and Capital University Law School, Ryan Gordon wanted
                                 to be an honest and trustworthy attorney for those who really need it. His expertise includes Estate Planning, Estate and Trust 
-                                Administration, Prbate Fiduciary and Commerical Litigation, Attorney Lampractice Litigation, Business Law, Real Estate Lae, and Tax Law.</p>
+                                Administration, Prbate Fiduciary and Commercial Litigation, Attorney Lampractice Litigation, Business Law, Real Estate Lae, and Tax Law.</p>
                             <div className="columns mt-4">
                                 <div className="column is-half">
                                     <h1 className="title google-font-pd">Education</h1>

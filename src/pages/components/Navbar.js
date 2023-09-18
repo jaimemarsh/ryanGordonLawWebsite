@@ -48,7 +48,7 @@ function Navbar() {
                             </Link>
 
                             <Link to="/Commercial" className="navbar-item google-font-ss">
-                                Commerical Litigation
+                                Commercial Litigation
                             </Link>
 
                             <Link to="/Malpractice" className="navbar-item google-font-ss">
