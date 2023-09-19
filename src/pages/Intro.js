@@ -15,8 +15,8 @@ const Intro = () => {
                 <p className="google-font-ss is-size-2 is-size-5-mobile">Our services include:<br></br>
                     <Link to="/Estate"> Estate Planning</Link>,
                     <Link to="/Trust"> Estate and Trust Administration</Link>,
-                    <Link to="/Probate"> Probate Fiduciary</Link>,
-                    <Link to="/Commercial"> Commercial Litigation</Link>,
+                    <Link to="/Probate"> Probate Civil Litigation</Link>,
+                    <Link to="/Commercial"> Business Litigation</Link>,
                     <Link to="/Mal"> Attorney Malpractice Litigation</Link>,
                     <Link to="/Business"> Business Law</Link>,
                     <Link to="/RealEstate"> Real Estate Law</Link>, and <Link to="/Tax"> Tax Law</Link>.

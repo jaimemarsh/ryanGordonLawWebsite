@@ -4,9 +4,9 @@ import Footer from './components/Footer'
 import Foot from './components/Foot'
 import Page from './components/PracticePage'
 
-
+// was Commercial Litigation
 const commercial = {
-    title: 'Commercial Litigation',
+    title: 'Buisness Litigation',
     definition: '',
     services: [
        

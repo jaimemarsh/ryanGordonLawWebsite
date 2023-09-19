@@ -27,7 +27,7 @@ const trust = {
 }
 
 const probate = {
-    name: 'Probate Fiduciary',
+    name: 'Probate Civil Litigation',
     image: keys,
     alt: 'Keys in a Door',
     title: 'A Probate Fiduciary is a person appointed by the court that will oversee and manage the assets in a transparent and lawful manner after a person has passed away. ',
@@ -36,7 +36,7 @@ const probate = {
 }
 
 const commercial = {
-    name: 'Commercial Litigation',
+    name: 'Buisness Litigation',
     image: desk,
     alt: 'Desk and Laptop',
     title: 'Commercial Litigation is the legal process of resolving disputes that arise in a business or commercial context.',
